@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trailers - Game of Thrones</title>
+    <style>
+        @font-face {
+            font-family: 'GameOfThrones';
+            src: url('/Fonte/Game\ of\ Thrones.ttf') format('truetype');
+        }
+
+        body {
+            background: url('./imgtrailers/capatrailer.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #FFFFFF;
+            font-family: 'GameOfThrones', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-top: 20px;
+            color: #FFFFFF;
+        }
+
+        .trailer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .trailer-card {
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 2px solid #FFFFFF;
+            border-radius: 8px;
+            width: 300px;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .trailer-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .trailer-card h3 {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .trailer-card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #FFD700;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .trailer-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* Acessibilidade */
+        .trailer-card img {
+            alt: "Imagem representativa do trailer da temporada [Número da Temporada]";
+        }
+
+        /* Responsividade */
+        @media screen and (max-width: 768px) {
+            .trailer-card {
+                width: 100%;
+            }
+        }
+
+        /* Estilo do botão de retorno */
+        .back-button {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #FFD700;
+            text-decoration: none;
+            font-family: 'GameOfThrones', Arial, sans-serif;
+            border: 2px solid #FFD700;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+        }
+
+        .back-button:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Trailers - Game of Thrones</h1>
+
+    <div style="text-align: center;">
+        <a href="index.html" class="back-button" aria-label="Voltar à página principal">Voltar à página principal</a>
+    </div>
+
+    <div class="trailer-container">
+        <!-- Trailer 1ª Temporada -->
+        <div class="trailer-card">
+            <img src="./imgtrailers/1temporada.jpg.crdownload" alt="Imagem representativa do trailer da 1ª Temporada">
+            <h3>1ª Temporada</h3>
+            <a href="https://youtu.be/bjqEWgDVPe0" target="_blank"
+                aria-label="Assistir ao trailer da 1ª Temporada">Assistir Trailer</a>
+        </div>
+
+        <!-- Trailer 2ª Temporada -->
+        <div class="trailer-card">
+            <img src="./imgtrailers/2temporada.jpg" alt="Imagem representativa do trailer da 2ª Temporada">
+            <h3>2ª Temporada</h3>
+            <a href="https://youtu.be/AlhHGUfCYw4" target="_blank"
+                aria-label="Assistir ao trailer da 2ª Temporada">Assistir Trailer</a>
+        </div>
+
+        <!-- Trailer 3ª Temporada -->
+        <div class="trailer-card">
+            <img src="./imgtrailers/terceiratemporada.jpeg" alt="Imagem representativa do trailer da 3ª Temporada">
+            <h3>3ª Temporada</h3>
+            <a href="https://youtu.be/ijlKikYfWEI" target="_blank"
+                aria-label="Assistir ao trailer da 3ª Temporada">Assistir Trailer</a>
+        </div>
+
+        <!-- Trailer 4ª Temporada -->
+        <div class="trailer-card">
+            <img src="./imgtrailers/quartatemporada.jpg.crdownload"
+                alt="Imagem representativa do trailer da 4ª Temporada">
+            <h3>4ª Temporada</h3>
+            <a href="https://youtu.be/aj9x_Xea6cg" target="_blank"
+                aria-label="Assistir ao trailer da 4ª Temporada">Assistir Trailer</a>
+        </div>
+
+        <!-- Trailer 5ª Temporada -->
+        <div class="trailer-card">
+            <img src="./imgtrailers/quintatemporada.jpg" alt="Imagem representativa do trailer da 5ª Temporada">
+            <h3>5ª Temporada</h3>
+            <a href="https://youtu.be/5sMhjwdNFSk" target="_blank"
+                aria-label="Assistir ao trailer da 5ª Temporada">Assistir Trailer</a>
+        </div>
+
+        <!-- Trailer 6ª Temporada -->
+        <div class="trailer-card">
+            <img src="./imgtrailers/sextatemporada.jpg" alt="Imagem representativa do trailer da 6ª Temporada">
+            <h3>6ª Temporada</h3>
+            <a href="https://youtu.be/yu8eRaq1FUM" target="_blank"
+                aria-label="Assistir ao trailer da 6ª Temporada">Assistir Trailer</a>
+        </div>
+
+        <!-- Trailer 7ª Temporada -->
+        <div class="trailer-card">
+            <img src="./imgtrailers/setimatemporada.jpg" alt="Imagem representativa do trailer da 7ª Temporada">
+            <h3>7ª Temporada</h3>
+            <a href="https://youtu.be/giYeaKsXnsI" target="_blank"
+                aria-label="Assistir ao trailer da 7ª Temporada">Assistir Trailer</a>
+        </div>
+
+        <!-- Trailer 8ª Temporada -->
+        <div class="trailer-card">
+            <img src="./imgtrailers/oitavatemporada.jpg" alt="Imagem representativa do trailer da 8ª Temporada">
+            <h3>8ª Temporada</h3>
+            <a href="https://youtu.be/rlR4PJn8b8I" target="_blank"
+                aria-label="Assistir ao trailer da 8ª Temporada">Assistir Trailer</a>
+        </div>
+
+        <!-- Trailer 9ª Temporada -->
+        <div class="trailer-card">
+            <img src="./imgtrailers/nonatemporada.jpeg" alt="Imagem representativa do trailer da 9ª Temporada">
+            <h3>9ª Temporada</h3>
+            <a href="https://youtu.be/T-b278D5Jf0" target="_blank"
+                aria-label="Assistir ao trailer da 9ª Temporada">Assistir Trailer</a>
+        </div>
+
+        <!-- Trailer 10ª Temporada -->
+        <div class="trailer-card">
+            <img src="./imgtrailers/decimatemporada.jpg" alt="Imagem representativa do trailer da 10ª Temporada">
+            <h3>10ª Temporada</h3>
+            <a href="https://youtu.be/UmCdsSbGOYA" target="_blank"
+                aria-label="Assistir ao trailer da 10ª Temporada">Assistir Trailer</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
